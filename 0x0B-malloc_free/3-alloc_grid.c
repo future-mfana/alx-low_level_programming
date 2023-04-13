@@ -1,5 +1,5 @@
-#include "mai.h"
-#include <stdlib>
+#include "main.h"
+#include <stdlib.h>
 /**
  * alloc_grid - nested loops to make a grid
  * @width: width inut
