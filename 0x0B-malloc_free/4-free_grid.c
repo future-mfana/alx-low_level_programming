@@ -1,13 +1,13 @@
 #include "main.h"
-#include <stdlib>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * free_grid - frees 2d array
  * @grid: 2d grid
  * @height: height dimension of the grid
  * Description: frees memory of grid
- * Return: 0
+ * Return: nothing
  *
  */
 void free_grid(int **grid, int height)
