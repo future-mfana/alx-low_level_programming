@@ -8,7 +8,7 @@
  * @age: The age of the dog.
  * @owner: The name of the owner.
  */
-void init_dog(struct dog *d, char *name, float age, char *owner);
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{
@@ -17,4 +17,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 		d->owner = owner;
 	}
 }
-
